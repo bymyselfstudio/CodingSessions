@@ -1,3 +1,5 @@
+// Aufgabenblatt von HS Bremen
+
 import java.util.Scanner;
 
 public class Rechteck {
