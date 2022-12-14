@@ -1,3 +1,5 @@
+// Task taken from https://www.codecademy.com/resources/blog/java-code-challenges-for-beginners/
+
 public class WordReversal {
 	public static void main(String[] args) {
 		String sentence = "Dog bites man";
