@@ -12,11 +12,11 @@ public class Rechteck {
 			"Breite\n" +
 			"Höhe\n" +
 			"Füllelement");	
-		read();
-		draw();
+		einlesen();
+		zeichnen();
 	}
 
-	static void read(){
+	static void einlesen(){
 		Scanner sc = new Scanner(System.in);
 		breite = sc.nextByte();
 		hoehe = sc.nextByte();
@@ -24,7 +24,7 @@ public class Rechteck {
 		sc.close();
 	}
 
-	static void draw(){
+	static void zeichnen(){
 		for (int i=0; i<hoehe; i++) {
 			if(i==0 || i==hoehe-1){
 				obenUndUnten();
